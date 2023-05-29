@@ -1,0 +1,31 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Python packaging artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore virtual environment
+env/
+
+# Ignore messy bits
+dev/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.db
+*.sqlite3
